@@ -7,6 +7,8 @@
 </head>
 <body>
     <form action="">
+        <fieldset>
+        <legend align="center">Registration Form</legend>
         <label for="">First Name :</label>
         <input type="text" placeholder="Enter First Name" pattern="[a-zZ-A]{3,}"> <br><br>
         <label for="">Last Name :</label>
@@ -35,7 +37,34 @@
         <input type="checkbox" name="painting" value="Oil-painting">
         <label for="">Water color painting</label>
         <input type="checkbox" name="painting" value="Water-color-painting"><br><br>
+        <label for="">State :</label>
+        <select name="state" id="">
+            <option value="state">Andhra</option>
+            <option value="state">Telangana</option>
+            <option value="state">Karntaka</option>  
+        </select><br><br>
+        <label for="">Food Items :</label>
+        <select name="" id="">
+            <optgroup label="Veg Items">
+            <option value="">Panner Tikka</option>
+            <option value="">mashrum curry</option>
+            <option value="">veg pulav</option>
+            <option value="">Onion pakoda</option>
+            </optgroup>
+            <optgroup label="NonVeg Items">
+            <option value="">Chicken curry</option>
+            <option value="">Matton biryani</option>
+            <option value="">Egg burji</option>
+            <option value="">Fish fry</option>
+            </optgroup>
+
+        </select><br><br>
+        <label for="">Bio :</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <input type="reset" name="" id="">
         <input type="submit">
+        </fieldset>
+
     </form>
 </body>
 </html>
