@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" cellspacing="0px" align="center" cellpadding="4px">
+        <caption>Registration Form</caption>
+        <tr>
+            <th>First Name :</th>
+            <td><input type="text" placeholder="Enter First Name" pattern="[a-zZ-A]{3,}"></td>
+        </tr>
+        <tr>
+            <th>Last Name :</th>
+            <td><input type="text" placeholder="Enter Last Name" pattern="[a-zZ-A]{3,}"></td>
+        </tr>
+        <tr>
+            <th>Email :</th>
+            <td><input type="email" placeholder="Enter Email"></td>
+        </tr>
+        <tr><th>Password :</th>
+            <td> <input type="Password"></td>
+        </tr>
+        <tr><th>Phon :</th>
+            <td><input type="tel" pattern="[0-9]{10}"></td>
+        </tr>
+        <tr><th>DOB :</th>
+            
+            <td> <input type="date" ></td>
+        </tr>
+        <tr><th>Gender :</th>
+            
+            <td><label for="">Male</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="">Female</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="">Other</label>
+        <input type="radio" name="gender" value="Other"></td>
+        </tr>
+        <tr><th>Age :</th>
+            
+            <td> <input type="number" min="18" max="32"></td>
+        </tr>
+        <tr><th>Preferences :</th>
+            
+            <td><label for="">Acrylic painting</label>
+        <input type="checkbox" name="painting" value="Acrylic-painting">
+        <label for="">Oil painting</label>
+        <input type="checkbox" name="painting" value="Oil-painting">
+        <label for="">Water color painting</label>
+        <input type="checkbox" name="painting" value="Water-color-painting"></td>
+        </tr>
+        <tr><th>State :</th>
+            
+            <td> <select name="state" id="">
+            <option value="state">Andhra</option>
+            <option value="state">Telangana</option>
+            <option value="state">Karntaka</option>  
+        </select></td>
+        </tr>
+        <tr><th>Food Items :</th>
+            
+            <td><select name="" id="">
+            <optgroup label="Veg Items">
+            <option value="">Panner Tikka</option>
+            <option value="">mashrum curry</option>
+            <option value="">veg pulav</option>
+            <option value="">Onion pakoda</option>
+            </optgroup>
+            <optgroup label="NonVeg Items">
+            <option value="">Chicken curry</option>
+            <option value="">Matton biryani</option>
+            <option value="">Egg burji</option>
+            <option value="">Fish fry</option>
+            </optgroup>
+
+        </select></td>
+        </tr>
+        <tr><th>Bio :</th>
+            
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr><td colspan="2"><input type="reset" name="" id="">
+          <input type="submit"></td>
+        </tr>
+       
+
+    </table>
+</body>
+</html>
