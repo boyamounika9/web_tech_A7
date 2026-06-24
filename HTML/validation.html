@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+          <label for="">First Name :</label>
+        <input type="text" placeholder="Enter First Name" minlength="3" maxlength="15" autofocus> <br><br>
+        <label for="">Last Name :</label>
+        <input type="text" required><br><br>
+        <label for="">Password :</label>
+        <input type="Password" pattern="[A-Z]{1}[a-z]{2}[\W+]{1}[0-9]{2,}"><br><br>
+        <label for="">DOB :</label>
+        <input type="date" min="2003-6-17" max="2004-12=8"><br><br>
+                <label for="">Gender :</label>
+        <label for="">Male</label>
+        <input type="radio" name="gender" value="Male">
+        <label for="">Female</label>
+        <input type="radio" name="gender" value="Female" checked>
+        <label for="">Other</label>
+        <input type="radio" name="gender" value="Other"> <br><br>
+        <label for="">Age :</label>
+        <input type="number" min="18" max="32" step="2"><br> <br>
+        <label for="">State :</label>
+         <select name="state" id="">
+            <option disabled selected>select option</option>
+            <option value="state">Andhra</option>
+            <option value="state">Telangana</option>
+            <option value="state">Karntaka</option>  
+        </select><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
