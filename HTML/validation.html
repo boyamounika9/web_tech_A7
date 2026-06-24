@@ -8,9 +8,9 @@
 <body>
     <form action="">
           <label for="">First Name :</label>
-        <input type="text" placeholder="Enter First Name" minlength="3" maxlength="15" autofocus> <br><br>
+        <input type="text" placeholder="Enter First Name" minlength="3" maxlength="15"  readonly value="Mounika"> <br><br>
         <label for="">Last Name :</label>
-        <input type="text" required><br><br>
+        <input type="text" autofocus required><br><br>
         <label for="">Password :</label>
         <input type="Password" pattern="[A-Z]{1}[a-z]{2}[\W+]{1}[0-9]{2,}"><br><br>
         <label for="">DOB :</label>
@@ -31,6 +31,9 @@
             <option value="state">Telangana</option>
             <option value="state">Karntaka</option>  
         </select><br><br>
+        <label for="">File :</label>
+        <input type="file" multiple accept=".jpg ,.pdf"><br><br>
+        <input type="file" multiple accept="images/* ,audio/* , video/*"><br><br>
         <input type="submit">
     </form>
 </body>
