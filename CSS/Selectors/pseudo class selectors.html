@@ -62,8 +62,22 @@
         ul li:nth-last-child(odd) {
             color: rgb(75, 212, 227);
         }
-           ul li:nth-last-child(3) {
+
+        ul li:nth-last-child(3) {
             color: rgb(34, 194, 28);
+        }
+
+        /* User interface */
+        input:disabled{
+    
+            background-color: brown;
+        }
+         input:enabled{
+    
+            background-color: rgb(79, 216, 116);
+        }
+        input:checked{
+            outline: solid 5px  red;
         }
     </style>
 </head>
@@ -87,8 +101,13 @@
 
         <li>Madhu</li>
 
-
     </ul>
+    <input type="text">
+    <input type="text" disabled>
+    <input type="text"><br><br><br>
+    <input type="radio"><br><br><br>
+    <input type="checkbox">
+
 
 </body>
 
