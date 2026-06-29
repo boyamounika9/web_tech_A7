@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: aqua;
+            font-size: 30px;
+        }
+        p::first-line{
+            color: rgb(23, 144, 144);
+        }
+        p::selection{
+            color: blueviolet;
+            background-color: antiquewhite;
+        }
+        ::marker{
+            font-size: 30px;
+            color: blue;
+        }
+        p::before{
+           
+            content: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70 );
+             content: "helloo..!";
+        }
+        p::after{
+            content: "thank you";
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum harum, omnis, aspernatur dignissimos asperiores consequuntur ipsum ipsam modi magni aut ex nesciunt quis consectetur, eligendi laudantium nulla maxime id.</p>
+    <ul>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+
+        <li>list</li>
+
+    </ul>
+</body>
+</html>
