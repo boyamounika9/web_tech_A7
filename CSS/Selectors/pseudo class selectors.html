@@ -1,40 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        a:link{
-            color:red;
-            text-decoration:none;
-        }
-        a:active{
-            background-color:blue;
-        }
-        a:visited{
-            color:green;
-        }
-        h1:hover{
-            background-color:yellow;
-
-        }
-        input:focus{
-            background-color:pink;
-            color:white;
-        }
-        a:visited:hover{
-            color:yellow;
+        /* dynamic type */
+        a:link {
+            color: red;
+            text-decoration: none;
         }
 
+        a:active {
+            background-color: blue;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        h1:hover {
+            background-color: yellow;
+
+        }
+
+        input:focus {
+            background-color: pink;
+            color: white;
+        }
+
+        a:visited:hover {
+            color: yellow;
+        }
+
+        /* structural */
+        ul li:first-child {
+            color: rgb(185, 16, 148)
+        }
+
+        ul li:last-child {
+            color: green;
+        }
+
+        ul li:nth-child(2) {
+            color: blue;
+        }
+
+        ul li:nth-child(even) {
+            color: brown;
+        }
+
+        ul li:nth-child(odd) {
+            color: yellow;
+        }
+
+        ul li:nth-last-child(even) {
+            color: rgb(83, 245, 204);
+        }
+
+        ul li:nth-last-child(odd) {
+            color: rgb(75, 212, 227);
+        }
+           ul li:nth-last-child(3) {
+            color: rgb(34, 194, 28);
+        }
     </style>
 </head>
+
 <body>
-   <h1>pseudo class selectors</h1> 
+    <h1>pseudo class selectors</h1>
     <a href="https://www.youtube.com">youtube</a>
     <a href="https://www.zomato.com">Zomato</a>
     <a href="https://www.spotify.com">Spotify</a><br><br>
     <input type="text" placeholder="testing of focus">
 
+    <ul>
+        <li>Jeevan</li>
+        <li>Mounika</li>
+
+        <li>Manasa</li>
+
+        <li>Mallika</li>
+
+        <li>Manjula</li>
+
+        <li>Madhu</li>
+
+
+    </ul>
+
 </body>
+
 </html>
