@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .face {
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+            border-radius: 50%;
+            box-shadow: 0px 0px 5px 2px rgb(209, 209, 92);
+            position: relative;
+
+        }
+
+        .eyebrow {
+            height: 10px;
+            width: inherit;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .eyebrow1,
+        .eyebrow2 {
+            width: 70px;
+            height: 40px;
+            border: 6px solid black;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: transparent;
+            border-radius: 70%;
+
+        }
+
+        .eyebrow1 {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+
+
+        }
+        .eyebrow2{
+            position: absolute;
+            top: 50px;
+            right: 50px;
+        }
+
+        .eye-1,
+        .eye-2 {
+            margin-top: 30px;
+            height: 100px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            top: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: end;
+
+        }
+
+        .eye-1 {
+            position: absolute;
+            left: 50px;
+        }
+
+        .eye-2 {
+            position: absolute;
+            right: 50px;
+        }
+
+        .eyeball-2,
+        .eyeball-1 {
+            height: 50px;
+            background-color: black;
+            width: 45px;
+            border-radius: inherit;
+
+
+        }
+        .mouth{
+            height: 200px;
+            width: 100px;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: solid 20px ;
+            border-radius: 50px;
+            position: absolute;
+            left: 100px;
+            bottom: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="face">
+        <div class="eyebrow">
+            <div class="eyebrow1"></div>
+            <div class="eyebrow2"></div>
+        </div>
+        <div class="eye-1">
+            <div class="eyeball-1"></div>
+
+        </div>
+        <div class="eye-2">
+            <div class="eyeball-2"></div>
+        </div>
+        <div class="mouth"></div>
+
+    </div>
+</body>
+
+</html>
