@@ -75,10 +75,12 @@
 
         .eyeball-2,
         .eyeball-1 {
-            height: 50px;
+            height: 55px;
             background-color: black;
-            width: 45px;
+            width: 48px;
             border-radius: inherit;
+            display: flex;
+            justify-content: end;
 
 
         }
@@ -88,11 +90,17 @@
             border-top: transparent;
             border-left: transparent;
             border-right: transparent;
-            border-bottom: solid 20px ;
+            border-bottom: solid 20px red;
             border-radius: 50px;
             position: absolute;
             left: 100px;
             bottom: 45px;
+        }
+        .dot1,.dot2{
+            height: 13px;
+            width: 13px;
+            background-color: white;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -104,11 +112,17 @@
             <div class="eyebrow2"></div>
         </div>
         <div class="eye-1">
-            <div class="eyeball-1"></div>
+            <div class="eyeball-1">
+                 <div class="dot1"></div>
+            </div>
+           
 
         </div>
         <div class="eye-2">
-            <div class="eyeball-2"></div>
+            <div class="eyeball-2">
+                <div class="dot2"></div>
+            </div>
+            
         </div>
         <div class="mouth"></div>
 
