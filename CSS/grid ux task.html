@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/font awesome/fontawesome-free-7.3.0-web/css/all.css">
+    <style>
+        *{
+            margin: 0px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 1530px;
+            background-color: rgb(249, 243, 236);
+            row-gap: 20px;
+        }
+        .nav
+        {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            height:100px ;
+            width: 10;
+            
+        }
+        .grid{
+            height: 560px;
+            width:1100px ;
+            display: grid;
+            grid-template-columns: repeat(3,350px);
+            grid-template-rows: repeat(2,250px);
+            gap: 30px;
+
+        }
+        .item1,.item2,.item3,.item4,.item5,.item6{
+            background-color: white;
+            padding: 40px;
+            border-radius: 0px 0px 10px 10px;
+            border-top: solid 20px rgb(206, 126, 139);
+            box-shadow: 2px 2px 2px 2px gray;
+        }
+        .item2{
+            border-top: solid 20px plum;
+        }
+        .item3{
+            border-top: solid 20px lightgreen;
+        }
+        .item4{
+            border-top: solid 20px rgb(191, 191, 114);
+        }
+        .item5{
+            border-top: solid 20px lightcoral;
+        }
+        .item6{
+            border-top: solid 20px lightseagreen;
+        }
+        .icon
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+           
+        }
+        .item1 .icon{
+             background-color: rgb(206, 126, 139);
+        }
+        .item2 .icon{
+             background-color: plum;
+        }
+        .item3 .icon{
+             background-color: lightgreen;
+        }
+        .item4 .icon{
+             background-color: rgb(191, 191, 114);
+        }
+        .item5 .icon{
+             background-color: lightcoral;
+        }
+        .item6 .icon{
+             background-color: lightseagreen;
+        }
+        button{
+            background-color: palevioletred;
+            height: 40px;
+            width: 120px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="nav">
+            <h2>We work in dedicated project teams, UX design</h2>
+        </div>
+        <div class="grid">
+            <div class="item1" class="item">
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h3>Research user needs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="item2" class="item">
+                <div class="icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3>Prototype an idea</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="item3" class="item">
+                <div class="icon">
+                   <i class="fa-brands fa-product-hunt"></i>
+                </div>
+                <h3>Design a new product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="item4" class="item">
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+                <h3>Imporove a product</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="item5" class="item">
+                <div class="icon">
+                   <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+                <h3>Build Marketing Plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="item6" class="item">
+                <div class="icon">
+                   <i class="fa-brands fa-supportnow"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+        </div>
+        <button>Contact us</button>
+    </section>
+</body>
+</html>
