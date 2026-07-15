@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 800px;
+            width: 100%;
+            display: flex;
+        }
+        table{
+            height: 200px;
+            width: 200px;
+        }
+        .t1,.t2{
+            display: inline-block;
+        }
+        @media screen and (min-width:0px) and (max-width:800px){
+              section{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            margin-top: 150px;
+            flex-direction: column-reverse;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="t1">
+            <h1>Table 1</h1>
+            <table border="1" cellspacing="0px">
+                <tr>
+                    <th>H1</th>
+                    <th>H2</th>
+                    <th>H3</th>
+                </tr>
+                <tr>
+                    <td>r1</td>
+                    <td>r1</td>
+                    <td>r1</td>
+                </tr>
+                 <tr>
+                    <td>r2</td>
+                    <td>r2</td>
+                    <td>r2</td>
+                </tr>
+            </table>
+        </div>
+        <div class="t2">
+            <h1>Table 2</h1>
+            <table border="1" cellspacing="0px">
+                <tr>
+                    <th>H1</th>
+                    <th>H2</th>
+                    <th>H3</th>
+                </tr>
+                <tr>
+                    <td>r1</td>
+                    <td>r1</td>
+                    <td>r1</td>
+                </tr>
+                 <tr>
+                    <td>r2</td>
+                    <td>r2</td>
+                    <td>r2</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

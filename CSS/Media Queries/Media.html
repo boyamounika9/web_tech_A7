@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        section{
+        section {
             height: 200px;
             width: 100%;
             display: grid;
-            grid-template-columns: repeat(4,auto);
-            grid-template-rows: repeat(1,200px);
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(1, 200px);
             gap: 20px;
         }
-        .div-1{
+
+        .div-1 {
             background-color: lightblue;
         }
-        .div-2{
+
+        .div-2 {
             background-color: lightcoral;
         }
-        .div-3{
+
+        .div-3 {
             background-color: lightgreen;
         }
-        .div-4{
+
+        .div-4 {
             background-color: lightyellow;
         }
+
         @media screen and (min-width:0px) and (max-width:450px) {
             section{
             height: 200px;
@@ -46,9 +52,9 @@
             gap: 20px;
         }
         }
-        
     </style>
 </head>
+
 <body>
     <section>
         <div class="div-1"></div>
@@ -57,4 +63,5 @@
         <div class="div-4"></div>
     </section>
 </body>
+
 </html>
