@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+             background-color: rgb(193, 112, 13);
+
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(30, 201, 201);
+        }
+        @media screen and (max-width:500px) {
+            section{
+              display: grid;
+                grid-template-columns: 1,auto;
+                grid-template-rows: 4,auto;
+                background-color: rgb(62, 104, 25);
+                gap: 20px;
+            }
+        }
+        @media screen and (min-width:500px) and (max-width:800px) {
+            section{
+                
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+                grid-template-rows:  repeat(2,auto);
+                background-color: bisque;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+     <section>
+        <div class="div-1"></div>
+        <div class="div-2"></div>
+        <div class="div-3"></div>
+        <div class="div-4"></div>
+    </section>
+</body>
+</html>
